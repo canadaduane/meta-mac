@@ -52,6 +52,7 @@ I'm very excited to joining the free culture movement once again via my first [f
   - Copy: Ctrl + Insert
   - Paste: Shift + Insert
 - Fix that holding meta and hitting a clipboard key followed by a non-clipboard key (e.g. 'z' to undo) requires letting go of meta key first.
+- Is there a way to make Command+Click work?
 
 ## Thanks
 
