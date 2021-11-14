@@ -187,24 +187,17 @@ void event_loop(int debug) {
                     ) {
                         write_event3(&meta_pressed_event, &syn_event, &event);
                         state = META_AS_META;
-                    } else if (event.code == KEY_X) {
+                    } else if (
+                        event.code == KEY_X ||
+                        event.code == KEY_C ||
+                        event.code == KEY_V
+                    ) {
+                        if (event.code == KEY_X) event.code = KEY_CUT;
+                        if (event.code == KEY_C) event.code = KEY_COPY;
+                        if (event.code == KEY_V) event.code = KEY_PASTE;
+
                         meta_release_happened = 0;
                         key_release_needed = 1;
-                        event.code = KEY_CUT;
-                        clipboard_key_event = event;
-                        write_event(&event);
-                        state = META_AS_NONE;
-                    } else if (event.code == KEY_C) {
-                        meta_release_happened = 0;
-                        key_release_needed = 1;
-                        event.code = KEY_COPY;
-                        clipboard_key_event = event;
-                        write_event(&event);
-                        state = META_AS_NONE;
-                    } else if (event.code == KEY_V) {
-                        meta_release_happened = 0;
-                        key_release_needed = 1;
-                        event.code = KEY_PASTE;
                         clipboard_key_event = event;
                         write_event(&event);
                         state = META_AS_NONE;
