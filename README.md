@@ -13,7 +13,7 @@ cd meta_mac-main
 ./install.sh
 ```
 
-Note that this depends on [interception](https://gitlab.com/interception/linux/tools)' `udevmon` systemd service, which is installed automatically.
+Note that this depends on [interception](https://gitlab.com/interception/linux/tools)'s `udevmon` systemd service, which is installed automatically.
 
 ## Which Shortcut Keys?
 
