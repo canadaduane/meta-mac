@@ -7,9 +7,11 @@ Enables a Mac OS-like shortcut key experience on Pop!_OS (and most Ubuntu-based 
 Download or `git clone` this repository, then run `./install.sh`:
 
 ```
-wget https://github.com/canadaduane/meta_mac/archive/refs/heads/main.zip
+wget https://github.com/canadaduane/meta-mac/archive/refs/heads/main.zip
 unzip main.zip
-cd meta_mac-main
+cd meta-mac-main
+# edit settings/udevmon.yaml and replace the DEVICE LINK with
+# your own keyboard device link, then:
 ./install.sh
 ```
 
