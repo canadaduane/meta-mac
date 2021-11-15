@@ -27,9 +27,7 @@ fi
 gcc src/meta_mac.cc -o bin/meta_mac &&
     sudo cp bin/meta_mac /usr/local/bin/ &&
 gcc src/swap_super_alt.cc -o bin/swap_super_alt &&
-    sudo cp bin/swap_super_alt /usr/local/bin/ &&
-gcc src/caps2esc.cc -o bin/caps2esc &&
-    sudo cp bin/caps2esc /usr/local/bin/
+    sudo cp bin/swap_super_alt /usr/local/bin/
 
 # Copy settings
 sudo cp settings/udevmon.yaml /etc/interception/udevmon.yaml &&
