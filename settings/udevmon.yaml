@@ -1,7 +1,0 @@
-- JOB: >
-    intercept -g $DEVNODE
-    | swap_super_alt -l
-    | meta_mac
-    | uinput -c /etc/interception/clipboard_keys.yaml -d $DEVNODE
-  DEVICE:
-    LINK: /dev/input/by-path/platform-i8042-serio-0-event-kbd

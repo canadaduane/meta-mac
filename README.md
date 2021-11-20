@@ -2,30 +2,53 @@
 
 Enables a Mac OS-like shortcut key experience on Pop!_OS (and most Ubuntu-based Linux distros).
 
+# Dependencies
+
+- libudev
+- [keyd](https://github.com/rvaiya/keyd)
+
 ## Installation
 
-Download or `git clone` this repository, then run `./install.sh`:
+
+1. Install [keyd](https://github.com/rvaiya/keyd)
 
 ```
-wget https://github.com/canadaduane/meta-mac/archive/refs/heads/main.zip
-unzip main.zip
-cd meta-mac-main
-# edit settings/udevmon.yaml and replace the DEVICE LINK with
-# your own keyboard device link, then:
-./install.sh
+sudo apt install libudev-dev
+git clone git@github.com:rvaiya/keyd.git
+cd keyd && make && sudo make install
+sudo systemctl enable keyd && sudo systemctl start keyd
 ```
 
-Note that this depends on [interception](https://gitlab.com/interception/linux/tools)'s `udevmon` systemd service, which is installed automatically.
+2. Add the Mac-like keyd config file
+
+```
+sudo cp keyd/default.cfg /etc/keyd/
+sudo systemctl restart keyd
+```
+
+3. Remove gnome/mutter's overlay key:
+
+```
+gsettings set org.gnome.mutter overlay-key ''
+```
+
+Done!
 
 ## Which Shortcut Keys?
 
-- For cut/copy/paste key combos, translate to special clipboard keys:
-  - Cut: `Command-X` -> `KEY_CUT`
-  - Copy: `Command-C` -> `KEY_COPY`
-  - Paste: `Command-V` -> `KEY_PASTE`
+- For cut/copy/paste key combos, translate to universal clipboard keys (works in terminal as well as other apps):
+  - Cut: `Command-X` -> `Ctrl-Del` 
+  - Copy: `Command-C` -> `Ctrl-Ins`
+  - Paste: `Command-V` -> `Shift-Ins`
 
 - For window switching, let key combos pass through:
   - Switch: `Command-Tab` -> `Meta-Tab`
+  - Switch backwards: ``Command-` `` => `Shift-Meta-Tab`
+
+- Switch directly to an open tab, e.g. Firefox or VS Code:
+  - `Command-1` -> `Alt-1`
+  - `Command-2` -> `Alt-2`
+  - ... etc.
 
 - The remaning `Command-*` key combos are translated to `Ctrl-*`, e.g.
   - Close Window: `Command-W` -> `Ctrl-W`
@@ -34,7 +57,8 @@ Note that this depends on [interception](https://gitlab.com/interception/linux/t
   - Italics: `Command-I` -> `Ctrl-I`
   - etc.
 
-See https://gitlab.com/interception/linux/plugins/caps2esc
+- Mouse clicks:
+  - `Command-Click` -> `Ctrl-Click`
 
 
 ## Why?
