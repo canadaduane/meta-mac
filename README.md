@@ -1,6 +1,6 @@
 # Meta Mac
 
-Enables a Mac OS-like shortcut key experience on Pop!_OS (and most Ubuntu-based Linux distros).
+Enables a Mac OS-like shortcut key experience on Linux.
 
 For an overview of the various key remapping solutions, and Mac-to-Linux switcher options, see my article [Key Remapping in Linux - 2021 Edition](https://medium.com/@canadaduane/key-remapping-in-linux-2021-edition-47320999d2aa)
 
