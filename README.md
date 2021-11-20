@@ -47,6 +47,7 @@ Done!
   - Switch: `Command-Tab` -> `Meta-Tab`
   - Switch backwards: (when in App Switch mode): ``Command-` `` => `Shift-Meta-Tab`
   - Switch between windows of same app: ``Command-` ``
+  - Open the Launcher: `Command-Space`
 
 - Switch directly to an open tab, e.g. Firefox or VS Code:
   - `Command-1` -> `Alt-1`
@@ -66,11 +67,11 @@ Done!
 
 ## Why?
 
-If I'm honest, the biggest discomfort I have with Linux shortcut keys is the mismatch between the terminal's idea of copy-paste (Ctrl+Shift+C/Ctrl+Shift+V) and everything else in Linux (Ctrl+C/Ctrl+V). And Linux isn't alone--Windows, too, has a weird relationship with copy/paste when it comes to the command shell. Only on the Mac have I experienced the sensible default that Command-C will copy to the clipboard, and Command-V will paste, regardless of which app is running.
+If I'm honest, the biggest discomfort I have with Linux shortcut keys is the mismatch between the terminal's idea of copy-paste (Ctrl+Shift+C / Ctrl+Shift+V) and everything else in Linux (Ctrl+C / Ctrl+V). And Linux isn't alone--Windows, too, has a weird relationship with copy/paste when it comes to the command shell. Only on the Mac have I experienced the sensible default that Command-C will copy to the clipboard, and Command-V will paste, regardless of which app is running.
 
 But why stop there? If many of us have experience with Mac OS, and if we have the ability to make customizations in Linux (and boy, do we!) then why not make switching to Linux as comfortable as possible?
 
-On a personal note, I've lived and worked on a Mac for the past 15 years, and while I still admire Apple's technical and design capability, our values have slowly been drifting apart over the years. Apple is no longer the underdog, and it's clear that it doesn't need to design for developers any more.
+On a personal note, I've lived and worked on a Mac for the past 15 years, and while I still admire Apple's technical and design capability, our values have slowly been drifting apart over the years. Apple is no longer the underdog, and it's clear that it doesn't need to design for the values or culture of software developers any more.
 
 ## What hardware/Linux distro do you use?
 
