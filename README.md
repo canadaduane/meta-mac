@@ -72,11 +72,11 @@ But why stop there? If many of us have experience with Mac OS, and if we have th
 
 On a personal note, I've lived and worked on a Mac for the past 15 years, and while I still admire Apple's technical and design capability, our values have slowly been drifting apart over the years. Apple is no longer the underdog, and it's clear that it doesn't need to design for developers any more.
 
-I'm very excited to joining the free culture movement once again via my first [frame.work](https://frame.work) laptop and [Pop!_OS](https://pop.system76.com/). I've written META Mac in the hope that it will ease the transition for others along this path as well.
-
 ## What hardware/Linux distro do you use?
 
-I use Pop!_OS on a framework laptop. The key to the left of spacebar is 'Alt'.
+I'm very excited to joining the free culture movement once again via my first [frame.work](https://frame.work) laptop and [Pop!_OS](https://pop.system76.com/). I've written META Mac in the hope that it will ease the transition for others along this path as well.
+
+The key to the left of spacebar is 'Alt' :)
 
 ## TODO
 - Active window awareness, i.e. send different keys to different apps
