@@ -2,6 +2,8 @@
 
 Enables a Mac OS-like shortcut key experience on Pop!_OS (and most Ubuntu-based Linux distros).
 
+For an overview of the various key remapping solutions, and Mac-to-Linux switcher options, see my article [Key Remapping in Linux - 2021 Edition](https://medium.com/@canadaduane/key-remapping-in-linux-2021-edition-47320999d2aa)
+
 # Dependencies
 
 - libudev
@@ -72,14 +74,8 @@ On a personal note, I've lived and worked on a Mac for the past 15 years, and wh
 I'm very excited to joining the free culture movement once again via my first [frame.work](https://frame.work) laptop and [Pop!_OS](https://pop.system76.com/). I've written META Mac in the hope that it will ease the transition for others along this path as well.
 
 ## TODO
-
-- Consider global copy/paste shortcut key combination over single-key:
-  - Cut: Shift + Delete
-  - Copy: Ctrl + Insert
-  - Paste: Shift + Insert
-- Fix that holding meta and hitting a clipboard key followed by a non-clipboard key (e.g. 'z' to undo) requires letting go of meta key first.
-- Is there a way to make Command+Click work?
+- Active window awareness, i.e. send different keys to different apps
 
 ## Thanks
 
-Thanks to Francisco Lopes' [interception](https://gitlab.com/interception/linux/tools) and deafmute's [interception-tools debian package](https://github.com/deafmute1/deb-pkg).
+Thanks to Raheman Vaiya of [keyd](https://github.com/rvaiya/keyd) for a great library and for a lot of help.
