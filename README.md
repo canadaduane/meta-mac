@@ -75,7 +75,7 @@ On a personal note, I've lived and worked on a Mac for the past 15 years, and wh
 
 ## What hardware/Linux distro do you use?
 
-I'm very excited to joining the free culture movement once again via my first [frame.work](https://frame.work) laptop and [Pop!_OS](https://pop.system76.com/). I've written META Mac in the hope that it will ease the transition for others along this path as well.
+I'm very excited to joining the free culture movement once again via my first [frame.work](https://frame.work) laptop and [Pop!_OS](https://pop.system76.com/). I've written Meta Mac in the hope that it will ease the transition for others along this path as well.
 
 The key to the left of spacebar is 'Alt' :)
 
