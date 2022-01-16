@@ -54,7 +54,7 @@ Done!
   - `Command-2` -> `Alt-2`
   - ... etc.
 
-- The remaning `Command-*` key combos are translated to `Ctrl-*`, e.g.
+- The remaining `Command-*` key combos are translated to `Ctrl-*`, e.g.
   - Close Window: `Command-W` -> `Ctrl-W`
   - New Tab: `Command-T` -> `Ctrl-T`
   - Bold: `Command-B` -> `Ctrl-B`
