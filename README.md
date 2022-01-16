@@ -20,13 +20,18 @@ Works in X & Wayland, and has awareness of which app is focused so that app-spec
 sudo apt install libudev-dev
 git clone https://github.com/rvaiya/keyd.git
 cd keyd && make && sudo make install
-sudo systemctl enable --now keyd
 ```
 
 2. Run install script
 
 ```
 ./install.sh
+```
+
+3. Enable keyd as a systemd service
+
+```
+sudo systemctl enable --now keyd
 ```
 
 Done!

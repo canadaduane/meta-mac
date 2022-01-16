@@ -17,5 +17,3 @@ for APP in *.conf; do
   cat "$APP" >> "$DIR/app.conf"
   (echo && echo) >> "$DIR/app.conf"
 done
-
-sudo systemctl restart keyd
