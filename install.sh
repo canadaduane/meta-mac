@@ -11,9 +11,10 @@ sudo cp keyd/default.conf /etc/keyd/default.conf
 DIR="$HOME/.config/keyd/"
 mkdir -p "$DIR"
 echo "" > $HOME/.config/keyd/app.conf
-pushd apps
-for APP in *.conf; do
-  echo "[${APP%.*}]" >> "$DIR/app.conf"
-  cat "$APP" >> "$DIR/app.conf"
-  (echo && echo) >> "$DIR/app.conf"
-done
+(
+  cd apps
+  for APP in *.conf; do
+    cat "$APP" >> "$DIR/app.conf"
+    (echo && echo) >> "$DIR/app.conf"
+  done
+)
