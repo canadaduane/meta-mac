@@ -39,26 +39,26 @@ Done!
 ## Which Shortcut Keys?
 
 - For cut/copy/paste key combos, translate to universal clipboard keys (works in terminal as well as other apps):
-  - Cut: `Command-X` -> `Ctrl-Del` 
-  - Copy: `Command-C` -> `Ctrl-Ins`
-  - Paste: `Command-V` -> `Shift-Ins`
+  - Cut: `Cmd-X` -> `Ctrl-X` 
+  - Copy: `Cmd-C` -> `Ctrl-C` (or `Ctrl-Shift-C` in Gnome Terminal)
+  - Paste: `Cmd-V` -> `Ctrl-V` (or `Ctrl-Shift-V` in Gnome Terminal)
 
 - Window switching:
-  - Switch: `Command-Tab` -> `Meta-Tab`
-  - Switch backwards: (when in App Switch mode): ``Command-` `` => `Shift-Meta-Tab`
-  - Switch between windows of same app: ``Command-` ``
-  - Open the Launcher: `Command-Space`
+  - Switch: `Cmd-Tab` -> `Meta-Tab`
+  - Switch backwards: (when in App Switch mode): ``Cmd-` `` => `Shift-Meta-Tab`
+  - Switch between windows of same app: ``Cmd-` ``
+  - Open the Launcher: `Cmd-Space`
 
 - Switch directly to an open tab, e.g. Firefox or VS Code:
-  - `Command-1` -> `Alt-1`
-  - `Command-2` -> `Alt-2`
+  - `Cmd-1` -> `Alt-1`
+  - `Cmd-2` -> `Alt-2`
   - ... etc.
 
-- The remaining `Command-*` key combos are translated to `Ctrl-*`, e.g.
-  - Close Window: `Command-W` -> `Ctrl-W`
-  - New Tab: `Command-T` -> `Ctrl-T`
-  - Bold: `Command-B` -> `Ctrl-B`
-  - Italics: `Command-I` -> `Ctrl-I`
+- The remaining `Cmd-*` key combos are translated to `Ctrl-*`, e.g.
+  - Close Window: `Cmd-W` -> `Ctrl-W` (or `Ctrl-Shift-W` in Gnome Terminal)
+  - New Tab: `Cmd-T` -> `Ctrl-T` (or `Ctrl-Shift-T` in Gnome Terminal)
+  - Bold: `Cmd-B` -> `Ctrl-B`
+  - Italics: `Cmd-I` -> `Ctrl-I`
   - etc.
 
 - Mouse clicks:
